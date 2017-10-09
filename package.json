@@ -1,0 +1,19 @@
+{
+  "name": "algo",
+  "version": "1.0.0",
+  "description": "An Algorithms Study",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianswisher/algo.git"
+  },
+  "author": "Brian Swisher <bswisher@gmail.com> (https://github.com/brianswisher)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianswisher/algo/issues"
+  },
+  "homepage": "https://github.com/brianswisher/algo#readme"
+}
