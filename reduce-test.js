@@ -2,7 +2,7 @@ const reduce = require('./reduce')
 
 let i, t, e
 
-i = reduce; t = typeof reduce; e = 'function'
+i = reduce; t = typeof i; e = 'function'
 console.log(t === e, 'it exists', t, e)
 
 i = [ [1,2,3], (sum, num) => sum + num, 0 ]; t = reduce.apply(null, i); e = 6

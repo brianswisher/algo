@@ -2,7 +2,7 @@ const simpleArraySum = require('./simpleArraySum')
 
 let i, t, e
 
-i = simpleArraySum; t = typeof simpleArraySum; e = 'function'
+i = simpleArraySum; t = typeof i; e = 'function'
 console.log(t === e, 'module exists', t, e)
 
 i = [ 6, [1,2,3,4,10,11] ]; t = simpleArraySum.apply(null, i); e = 31
