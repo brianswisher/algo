@@ -5,5 +5,10 @@ module.exports = function(arr, func, start) {
     target = func(target, a)
   })
 
+  // const forEach = require('./forEach') // @SEE forEach-test
+  // forEach(arr, a => {
+  //   target = func(target, a)
+  // })
+
   return target
 }
